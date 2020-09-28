@@ -15,3 +15,4 @@
 // import './sorting/bubbleSort';
 // import './sorting/selectionSort';
 // import './sorting/insertionSort';
+// import './sorting/mergeSort';
