@@ -16,3 +16,4 @@
 // import './sorting/selectionSort';
 // import './sorting/insertionSort';
 // import './sorting/mergeSort';
+// import './sorting/quickSort.js';
