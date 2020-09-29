@@ -1,10 +1,20 @@
 /**
  * Sorting:
- * - Bubble Sort
- * - Insertion Sort
- * - Selection Sort
- * - Merge Sort
- * - Quick Sort
+ * - Bubble Sort - Easy to implement, but inlikely to be used to due inefficiencies
+ * - Insertion Sort - Easy to implement, but inlikely to be used to due inefficiencies (Good for small ordered datasets)
+ * - Selection Sort - Easy to implement, but inlikely to be used to due inefficiencies
+ * - Merge Sort - Stable and always has O(n log(n)), but space complexity is higher
+ * - Quick Sort - Use when avarage case performance matters more than worst case performance
+ * 
+ * Others:
+ * - Heap Sort: similar to merge sort and quick sort. Good Space Complexity, but on avarage slower then quick sort.
+ * 
+ * Non-Comparison Sorts:
+ * Only work with numbers (intergers) within a restricted range.
+ * Can be faster than the non Non-Comparison Sort alorithms (but not always...).
+ * http://opendatastructures.org/ods-cpp/11_2_Counting_Sort_Radix_So.html
+ * - Counting Sort
+ * - Radix Sort
  * 
  * https://www.toptal.com/developers/sorting-algorithms
  * https://www.youtube.com/user/AlgoRythmics/videos
@@ -64,4 +74,13 @@ console.log('Sorting: End');
  * When elements with duplciate array values uses for the algorithm calculation maintian their order after the the algorithm has completed
  * https://stackoverflow.com/questions/1517793/what-is-stability-in-sorting-algorithms-and-why-is-it-important
  *
+ */
+
+
+
+/**
+ * Interview Answers when choosing a sorting algorithm
+ *
+ * Due to the time contraint, I'm going to use something naive and not efficient like bubble sort as we can assume we can use a sorting function provided by the library.
+ * I suggest we just use merge sort to devide and conquer the code to make it more efficient.
  */

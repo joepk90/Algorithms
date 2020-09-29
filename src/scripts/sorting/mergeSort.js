@@ -1,5 +1,8 @@
 /**
- *  Merge Sort: Complext Sorting Algorithm
+ * Merge Sort: Complext Sorting Algorithm (Uses Devide and Conquer)
+ * https://en.wikipedia.org/wiki/Merge_sort
+ * You can always guarantee a time complexity of O(n).
+ * If concerned about worst case scenarios, use Merge Sort.
  * 
  * Time Complexity
  *  - Best: O(n log(n))

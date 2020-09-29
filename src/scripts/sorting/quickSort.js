@@ -1,6 +1,10 @@
 /**
- * Quick Sort: Complext Sorting Algorithm
+ * Quick Sort: Complext Sorting Algorithm (Uses Devide and Conquer)
  * https://en.wikipedia.org/wiki/Quicksort
+ * Good for ordered data sets.
+ * Bad Time Complexity in worst case scenario.
+ * If concerned about worst case, Quick Sort probobly should not be used.
+ * 
  *
  * Time Complexity
  *  - Best: O(n log(n))
