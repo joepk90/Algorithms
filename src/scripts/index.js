@@ -17,3 +17,9 @@
 // import './sorting/insertionSort';
 // import './sorting/mergeSort';
 // import './sorting/quickSort.js';
+
+
+//search
+// import './searching/linearSearch';
+
+
